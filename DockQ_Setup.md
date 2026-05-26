@@ -1,5 +1,5 @@
 ## Lamarck &nbsp; &nbsp; &nbsp; 2026-05-26
-#### 该文档使用 conda & pip 部署 DockQ
+#### 该文档使用 conda & pip 安装 DockQ
 ---
 
 ## 01  创建 conda 环境
