@@ -13,10 +13,10 @@
 
 ## 📚 内容索引
 
-| 文档                                           | 说明                              |
-| :--------------------------------------------- | :-------------------------------- |
-| [DockQ_Setup.md](./DockQ_Setup.md)             | conda 环境创建、DockQ 安装        |
-| [DockQ_Functions.md](./DockQ_Functions.md)     | DockQ 各项功能的实现与使用笔记    |
+| 文档                                               | 说明                               |
+| :------------------------------------------------- | :--------------------------------- |
+| [DockQ_Setup.md](./DockQ_Setup.md)                 | conda 环境创建、DockQ 安装         |
+| [DockQ_Functions.md](./DockQ_Functions.md)         | DockQ 各项功能的实现与使用笔记     |
 | [DockQ_Output_Format.md](./DockQ_Output_Format.md) | DockQ 输出各字段含义与分数档位说明 |
 
 ---
