@@ -14,10 +14,25 @@ conda activate lmk_DockQ
 
 ---
 
-> **01 复合物界面质量评估 -- |单任务|默认参数|自动链匹配|**
+> **01 复合物界面质量评估 -- 自动链匹配**
 ```bash
 DockQ /data/lmk/dockq/1A2K_r_l_b.model.pdb /data/lmk/dockq/1A2K_r_l_b.pdb
 # DockQ <model> <native>
+```
+
+> **02 复合物界面质量评估 -- 仅评价指定界面**
+```bash
+DockQ /data/lmk/dockq/1A2K_r_l_b.model.pdb /data/lmk/dockq/1A2K_r_l_b.pdb --mapping AC:BC
+# --mapping <MODEL_CHAINS>:<NATIVE_CHAINS>
+DockQ /data/lmk/dockq/1A2K_r_l_b.model.pdb /data/lmk/dockq/1A2K_r_l_b.pdb --mapping :BC
+# --mapping :<NATIVE_CHAINS>
+# 左边留空，自动匹配 model 中的对应界面
+```
+
+> **03 复合物界面质量评估 -- 显式指定链对应**
+```bash
+DockQ /data/lmk/dockq/1A2K_r_l_b.model.pdb /data/lmk/dockq/1A2K_r_l_b.pdb --mapping BAC:ABC
+# 显式指定全部链对应（model B,A,C ↔ native A,B,C），评价所有界面
 ```
 
 ##### [DockQ官方仓库](https://github.com/bjornwallner/DockQ)
