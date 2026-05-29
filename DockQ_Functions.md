@@ -40,4 +40,10 @@ DockQ /data/lmk/dockq/1A2K_r_l_b.model.pdb /data/lmk/dockq/1A2K_r_l_b.pdb --shor
 # --short 精简输出，便于快速查看 / 脚本读取
 ```
 
+> **05 复合物界面质量评估 -- 输出 JSON 文件**
+```bash
+DockQ /data/lmk/dockq/1A2K_r_l_b.model.pdb /data/lmk/dockq/1A2K_r_l_b.pdb --json /data/lmk/dockq/1A2K_result.json
+# --json <PATH> 将结果写入 JSON 文件
+```
+
 ##### [DockQ官方仓库](https://github.com/bjornwallner/DockQ)
