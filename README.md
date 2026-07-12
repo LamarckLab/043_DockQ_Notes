@@ -6,12 +6,12 @@
   <img src="https://img.shields.io/badge/Tool-DockQ-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Field-Quality%20Assessment-orange?style=flat-square" />
   <img src="https://img.shields.io/badge/Platform-Linux-555?style=flat-square" />
-  <img src="https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square" />
+  <img src="https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square" />
 </p>
 
 ---
 
-## 📚 内容索引
+## 内容索引
 
 | 文档                                               | 说明                               |
 | :------------------------------------------------- | :--------------------------------- |
